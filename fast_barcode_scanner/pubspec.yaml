@@ -13,7 +13,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  fast_barcode_scanner_platform_interface: ^1.0.4
+  fast_barcode_scanner_platform_interface:
+    git:
+      url: https://github.com/rsi2m/fast_barcode_scanner
+      ref: develop
+      path: fast_barcode_scanner_platform_interface
 
 dev_dependencies:
   flutter_test:
